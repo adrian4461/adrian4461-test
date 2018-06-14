@@ -8,3 +8,7 @@ with open(r'data/pi_digits.txt') as file_object:
         lines.append(line.rstrip())
 for x in lines:
     print(x)
+
+with open(r'README.md','w') as file_object:
+    file_object.writelines('#2018/6/14 continue')
+
